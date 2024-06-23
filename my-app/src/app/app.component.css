@@ -1,0 +1,25 @@
+body,
+html {
+  background-color: #efefef;
+}
+
+.navbar {
+  background-color: #f51183;
+  color: #efefef;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-contact {
+  display: flex;
+  flex-direction: row;
+}
+.nav-contact * {
+  margin-left: 1rem;
+}
+
+.flexer {
+  flex-grow: 1;
+}
